@@ -8,10 +8,10 @@ const Layout = ({ children }) => {
                 <div className="max-w-5xl mx-auto px-4">
                     <div className="flex items-center justify-center h-16">
                         <div className="flex space-x-10 text-gray-900">
-                            <a href="#">About</a>
-                            <a href="#">Dashboard</a>
-                            <a href="#">Projects</a>
-                            <a href="#">Contact</a>
+                            <a class="nav-component" href="#top">About</a>
+                            <a class="nav-component" href="#skills">Skills</a>
+                            <a class="nav-component" href="#projects">Projects</a>
+                            <a class="nav-component" href="#contact">Contact</a>
                         </div>
                     </div>
                 </div>

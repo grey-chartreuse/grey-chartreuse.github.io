@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Raleway:wght@200;500&display=swap');
 
 * {
     margin: 0;
@@ -32,6 +32,23 @@ body {
     padding: 40px;
     margin-top: 50px;
 }
+
+.nav-component:hover {
+    color: #003b6f;
+}
+
+.nav-component:after {
+    display: block;
+    content: "";
+    border-bottom: solid 2.5px #003b6f;  
+    transform: scaleX(0);
+    transition: transform 150ms ease-in-out;
+}
+
+.nav-component:hover:after {
+    width: 100%;
+    transform: scaleX(1);
+}
   
 .header {
     .intro {
@@ -56,12 +73,13 @@ body {
     }
     
     .korean-name {
-      font-weight: 800;
+      font-weight: 700;
     }
     
     .english-name {
-      color: #003b6f;
-      font-weight: 400;
+      color: #999;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 200;
     }
     
     .status {
@@ -92,4 +110,71 @@ body {
         margin-right: 5px;
         font-size: 20px;
     }
+}
+
+.contents-container {
+    .head {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+        font-size: 28px;
+        color: #003b6f;
+        letter-spacing: 1px;
+    }
+
+    .content-details {
+        margin-top: 10px;
+    }
+
+    .name-section {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .detail-section {
+        border-left: solid 2.5px #000;
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .content-flex {
+        margin-top: 15px;
+        display: flex;
+    }
+
+    .flex-name {
+        margin-right: 15px;
+    }
+
+    .flex-detail {
+        border-left: solid 2px #000;
+        padding-left: 15px;
+        margin-bottom: 5px;
+    }
+
+    .link-details:hover {
+        color: #003b6f;
+    }
+    
+    .link-details:after {
+        display: block;
+        content: "";
+        border-bottom: solid 2px #003b6f;  
+        transform: scaleX(0);
+        transition: transform 150ms ease-in-out;
+    }
+    
+    .link-details:hover:after {
+        width: 100%;
+        transform: scaleX(1);
+    }
+}
+
+.fa-regular{
+    color: #373737;
+}
+
+.fa-brands{
+    color: #373737;
 }
