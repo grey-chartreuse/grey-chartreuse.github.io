@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/deploy",
   siteMetadata: {
     siteTitle: `Rocket Docs`,
     defaultTitle: `Rocket Docs`,
