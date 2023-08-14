@@ -1,49 +1,61 @@
 <p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  <img src="https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/theme-docs.svg" alt="A illustration of file that is the @rocketseat/gatsby-theme-docs logo" width="100">
+</p>
+
+<h2 align="center">
+  Gatsby Starter: Rocket Docs
+</h2>
+
+<p align="center">
+  Out of the box Gatsby Starter for creating documentation websites easily and quickly. With support for MDX, code highlight, Analytics, SEO and more 🔥 Using the theme: <a href="https://github.com/jpedroschmitz/rocketdocs/tree/main/%40rocketseat/gatsby-theme-docs">@rocketseat/gatsby-theme-docs</a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/PRs-welcome-%238257E6.svg" alt="PRs welcome!" />
+
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-%238257E6">
+
+  <a href="https://twitter.com/intent/follow?screen_name=jpedroschmitz">
+    <img src="https://img.shields.io/twitter/follow/jpedroschmitz.svg?label=Follow%20@jpedroschmitz" alt="Follow @jpedroschmitz" />
   </a>
 </p>
-<h1 align="center">
-  Gatsby Minimal Starter
-</h1>
 
-## 🚀 Quick start
+## 🚀 Features
 
-1.  **Create a Gatsby site.**
+- 📝 MDX for docs;
+- 🛣 Yaml-based sidebar navigation;
+- 📱 Responsive and mobile friendly;
+- 🖥 Code highlighting with [prism-react-renderer](https://github.com/FormidableLabs/prism-react-renderer) and [react-live](https://github.com/FormidableLabs/react-live) support;
+- 🥇 SEO (Sitemap, schema.org data, Open Graph and Twitter tags).
+- 📈 Google Analytics support;
+- 📄 Custom docs schema;
+- 🖱 Table of Contents;
+- ⚡️ Offline Support & WebApp Manifest;
+- and much more 🔥
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+## ⚡️ Getting started
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+1. Create the website.
 
-2.  **Start developing.**
+   ```sh
+   npx gatsby new rocketdocs https://github.com/jpedroschmitz/gatsby-starter-rocketdocs
+   ```
 
-    Navigate into your new site’s directory and start it up.
+2. Start developing.
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+   ```sh
+   cd rocketdocs
+   gatsby develop
+   ```
 
-3.  **Open the code and start customizing!**
+3. Are you ready for launch?
 
-    Your site is now running at http://localhost:8000!
+   Your site is now running at `http://localhost:8000`
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+## 📄 Docs
 
-4.  **Learn more**
+Looking for docs? Check our live demo and documentation [website](https://rocketdocs.netlify.app).
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Tutorials](https://www.gatsbyjs.com/docs/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Guides](https://www.gatsbyjs.com/docs/how-to/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+---
 
-## 🚀 Quick start (Netlify)
-
-Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
-
-[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal)
+Made with 💜 by João Pedro

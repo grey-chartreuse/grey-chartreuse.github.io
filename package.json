@@ -1,29 +1,33 @@
 {
-  "name": "grey-chartreuse",
-  "version": "1.0.0",
+  "name": "gatsby-starter-rocketdocs",
   "private": true,
-  "description": "grey-chartreuse",
+  "version": "1.0.0",
+  "description": "Out of the box Gatsby Starter for creating documentation websites easily and quickly. With support for MDX, code highlight, Analytics, SEO and more",
+  "author": "João Pedro Schmitz <hey@joaopedro.dev> (@jpedroschmitz)",
+  "license": "MIT",
+  "starter-name": "gatsby-starter-rocketdocs",
+  "dependencies": {
+    "@rocketseat/gatsby-theme-docs": "^4.0.0",
+    "gatsby": "^5.9.0",
+    "gatsby-plugin-canonical-urls": "^5.9.0",
+    "gatsby-plugin-google-analytics": "^5.9.0",
+    "gatsby-plugin-manifest": "^5.9.0",
+    "gatsby-plugin-offline": "^6.9.0",
+    "gatsby-plugin-remove-trailing-slashes": "^4.2.0",
+    "gatsby-plugin-sitemap": "^6.9.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {},
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "gatsby-starter"
   ],
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
     "build": "gatsby build",
+    "start": "gatsby develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "deploy": "gatsby build && gh-pages -d public -b deploy"
-  },
-  "dependencies": {
-    "@mdx-js/react": "^2.3.0",
-    "autoprefixer": "^10.4.14",
-    "gatsby": "^5.11.0",
-    "gatsby-plugin-mdx": "^5.11.0",
-    "gatsby-plugin-postcss": "^6.11.0",
-    "gatsby-source-filesystem": "^5.11.0",
-    "postcss": "^8.4.27",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "tailwindcss": "^3.3.3"
+    "clean": "gatsby clean"
   }
 }
