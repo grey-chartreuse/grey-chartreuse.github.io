@@ -37,5 +37,3 @@ jobs:
         with:
           dest-s3-bucket: ${{ secrets.AWS_S3_BUCKET }}
           cloudfront-id-to-invalidate: ${{ secrets.CLOUDFRONT_ID }}
-      - name: Cache Control
-        run: aws cloudfront create-invalidation --distribution-id $ --paths "/*"
